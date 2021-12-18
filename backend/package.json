@@ -1,0 +1,24 @@
+{
+  "name": "backendapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/index",
+    "dev": "nodemon src/index",
+    "build": "sequelize-auto -h 45.79.201.214 -d grupalDB -u franAdmin -x Adrian12234.. -p 3306  --dialect mysql"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.3.3-rc.0",
+    "sequelize": "^6.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sequelize-auto": "^0.8.8"
+  }
+}
